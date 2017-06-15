@@ -10,8 +10,10 @@
   "engines": {
     "node": ">= 8.0.0"
   },
-  "dependencies": {},
   "main": "index.js",
+  "dependencies": {
+    "extended-promise": "^0.2.1-beta"
+  },
   "devDependencies": {
     "standard": "10.0.2"
   },
