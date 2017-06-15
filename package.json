@@ -1,25 +1,17 @@
 {
-	"name": "extended-promise",
-	"description": "Extend ECMAScript 6 promise",
-	"version": "0.2.1-beta",
-	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
-	"contributors": [
-		"Hoàng Văn Khải <hvksmr1996@gmail.com>"
-	],
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ksxnodemodules/extended-promise.git"
-	},
-	"engines": {
-		"node": ">= 8.0.0"
-	},
-	"dependencies": {},
-	"main": "index.js",
-	"bugs": {
-		"url": "https://github.com/ksxnodemodules/extended-promise/issues"
-	},
-	"homepage": "https://github.com/ksxnodemodules/extended-promise#readme",
+  "name": "child-process-utils",
+  "description": "Small utilities for child_process",
+  "version": "0.0.0",
+  "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+  "contributors": [
+    "Hoàng Văn Khải <hvksmr1996@gmail.com>"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "dependencies": {},
+  "main": "index.js",
   "devDependencies": {
     "standard": "10.0.2"
   },
@@ -37,5 +29,23 @@
     "clean": "bash 'sh/clean.sh'",
     "fix": "bash 'sh/fix.sh'",
     "test": "bash 'sh/test.sh'"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksxnodemodules/child-process-utils.git"
+  },
+  "keywords": [
+    "child_process",
+    "utilities",
+    "async",
+    "await"
+  ],
+  "bugs": {
+    "url": "https://github.com/ksxnodemodules/child-process-utils/issues"
+  },
+  "homepage": "https://github.com/ksxnodemodules/child-process-utils#readme"
 }
