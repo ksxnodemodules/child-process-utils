@@ -1,13 +1,15 @@
-# ExtendedPromise
+# child-process-utils
 
 ## Description
 
-`ExtendedPromise` is a subclass of ECMAScript 6 `Promise` with some extra methods
+Small utilities for `child_process`
 
 ## Requirements
 
 * Node ≥ 8.0.0
 
-## Usage
+## Installation
 
-Use `ExtendedPromise` as ECMAScript `Promise`
+```sh
+npm install child-process-utils
+```
