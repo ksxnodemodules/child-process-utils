@@ -1,14 +1,17 @@
 'use strict'
+const functionize = require('./utils/funtionize.js')
+const ProcessPromise = require('./lib/promise.js')
+const SpawnPromise = require('./lib/spawn.js')
 
-function create ({
-  ExtendedPromise = require('extended-promise')
-} = {}) {
-  return {ExtendedPromise}
-}
+const spawn = Object.assign(
+  functionize(SpawnPromise),
+  {
+    extended: functionize(SpawnPromise.Extended)
+  }
+)
 
 module.exports = {
-  create,
-  get main () {
-    return create()
-  }
+  ProcessPromise,
+  SpawnPromise,
+  spawn
 }
